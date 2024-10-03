@@ -1,4 +1,4 @@
-//----------------------------------------------------------------------------------------------
+//Hamsa Saleem 444000448
 
 // Java code for linearly search x in arr[]. If x
 
@@ -14,15 +14,15 @@ class LinearSearch {
 
             {
 
-                        for (int i = 0; i < n; i++) {
+                        for (int a = 0; i < n; a++) {
 
                                 // Return the index of the element if the element
 
                                     // is found
 
-                                    if (arr[i] == x)
+                                    if (arr[a] == x)
 
-                                                return i;
+                                                return a;
 
                         }
 
@@ -40,13 +40,13 @@ class LinearSearch {
 
             {
 
-                        int[] arr = { 3, 4, 1, 7, 5 };
+                        int[] arra = { 3, 4, 1, 7, 5 };
 
-                        int n = arr.length;
+                        int n = arra.length;
 
-                        int x = 4;
+                        int xy = 4;
 
-                        int index = search(arr, n, x);
+                        int index = search(arra, n, xy);
 
                         if (index == -1)
 
